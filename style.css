@@ -81,17 +81,12 @@ img {
   font-size: 16px;
   color: #696969;
 }
-.dream-content a {
-}
 /* dream section end */
 /* expericne section start */
 .experience {
   margin-top: 80px;
   background: url(images/exp-bg.png) no-repeat;
   background-position: left;
-}
-
-.experience-title {
 }
 .experience-title h2 {
   font-size: 50px;
