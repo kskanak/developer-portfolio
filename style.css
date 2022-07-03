@@ -4,7 +4,7 @@ body {
 }
 /* first section started */
 /* first width */
-section {
+.top-banner {
   display: flex;
 }
 .half-width {
@@ -21,10 +21,15 @@ h2 span {
 h4 {
   font-size: 18px;
 }
+p {
+  font-size: 16px;
+  color: #696969;
+}
+
 a {
   text-decoration: none;
   color: white;
-  background-image: linear-gradient(50deg, #ff7051, transparent);
+  background-image: linear-gradient(#ff7051, tomato);
   padding: 10px 35px;
   border-radius: 5px;
   font-size: 18px;
@@ -35,13 +40,97 @@ a {
 }
 a:hover {
   color: yellow;
-  background-color: red;
 }
 /* second width */
 img {
   width: 75%;
+  padding-left: 70px;
 }
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
+.meliodas-left {
+  padding-left: 100px;
+}
+/* dream section start */
+.dream {
+  display: flex;
+  background: url(images/dream-bg.png) no-repeat;
+  background-position: right;
+  margin-top: 80px;
+}
+.dream-image {
+  width: 50%;
+}
+.dream-image img {
+  width: 75%;
+}
+.dream-content {
+  width: 50%;
+  padding-right: 50px;
+}
+.dream-content h2 {
+  font-size: 50px;
+}
+.dream-content h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.dream-content p {
+  font-size: 16px;
+  color: #696969;
+}
+.dream-content a {
+}
+/* dream section end */
+/* expericne section start */
+.experience {
+  margin-top: 80px;
+  background: url(images/exp-bg.png) no-repeat;
+  background-position: left;
+}
+
+.experience-title {
+}
+.experience-title h2 {
+  font-size: 50px;
+}
+.experience-content {
+  display: flex;
+}
+.experience-content-blog {
+  width: 40%;
+  margin: 0 5%;
+  box-shadow: 10px 10px 45px grey;
+  padding: 0 20px;
+  text-align: justify;
+  margin-top: 50px;
+  border-radius: 10px 50px;
+}
+.experience-content-blog h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.experience-content-blog h4 {
+  font-weight: 500;
+  color: orange;
+}
+.experience-content-blog p {
+  letter-spacing: 1px;
+}
+.left {
+  border-left: 10px solid tomato;
+  border-top: 10px solid tomato;
+}
+.right {
+  border-bottom: 10px solid brown;
+  border-right: 10px solid brown;
+}
+/* expericne section end */
+/* footer start */
+h5 {
+  text-align: center;
+  margin-top: 80px;
+}
+/* footer end */
